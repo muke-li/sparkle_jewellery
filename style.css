@@ -1,0 +1,766 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Quicksand', 'Arial', sans-serif;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+/*header*/
+header{
+	background: #00F3FF;
+	font-weight: 600;
+	padding: 1rem;
+	margin: 0;	
+}
+
+	#navIconsContainer{
+		display: flex;
+  		justify-content: space-between;
+  		flex-direction: row;
+	}
+
+	#logo{
+		width: 10%;
+		height: auto;
+	}
+
+/*magnifying-glass, phone AND cart, user*/
+
+		#firstIconsGroup{
+			display: flex;
+			justify-content: space-around;
+			flex-direction: row;
+		}
+				#firstIconsGroup a{
+					display: inline-block;
+					padding: 1rem;
+				}
+		#secondIconsGroup{
+			display: flex;
+			justify-content: space-around;
+			flex-direction: row;
+		}
+				#secondIconsGroup a{
+					display: inline-block;
+					padding: 1rem;
+				}
+
+/*header*/
+	#mainNavContainer{
+  		display: flex;
+  		justify-content: space-around;
+  		flex-direction: row-reverse;
+	}
+			#mainNavContainer a{
+				display: inline-block;
+				padding: 1rem;
+			}
+
+
+
+nav a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+	#bannerContainer{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+
+main{
+	line-height: 2rem;
+	font-size: 1.4rem;
+
+	max-width: 65ch;
+	margin: 0 auto;
+}
+h1{
+	margin: 3rem;
+	margin-bottom: 2rem;
+	padding-bottom: 0;
+	font-size: 1.25em;
+	text-align:left;
+}
+
+
+#bigImg1{
+	width: 100%;
+	height: auto;
+	border: 0.5px solid #575758;
+}
+#bigImg2{
+	width: 100%;
+	height: auto;
+	border: 0.5px solid #575758;
+}
+#bigImage1andtext{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 0;
+}
+#bigImage2andtext{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 0;
+}
+
+	#bigImage1text{
+		background: #f0f0f1;
+		padding: 1rem;
+		border: 0.5px solid #575758;
+	}
+	#bigImage2text{
+		background: #f0f0f1;
+		padding: 1rem;
+		border: 0.5px solid #575758;
+	}
+		#bigImage1text h3{
+			font-size: 1em;
+			font-weight: 300;
+		}
+		#bigImage1text p{
+			font-size: 0.75em;
+			font-weight: 100;
+		}
+		#bigImage2text h3{
+			font-size: 1em;
+			font-weight: 300;
+		}
+		#bigImage2text p{
+			font-size: 0.75em;
+			font-weight: 100;
+		}
+		#bigImage1text a{
+			text-decoration: none;
+			color: white;
+			border: 1px solid #fff;
+			background: #7acfd3;
+			padding: 0.5rem;
+		}
+		#bigImage2text a{
+			text-decoration: none;
+			color: white;
+			border: 1px solid #fff;
+			background: #7acfd3;
+			padding: 0.5rem;
+		}
+		#bigImage1text h3{
+			font-weight: 600;
+		}
+		#bigImage2text h3{
+			font-weight: 600;
+		}
+
+
+h2{
+	padding-top: 0;
+	font-size: 1.5em;
+	text-align:left;
+}
+h2:first-of-type{
+	margin-top: 5rem;
+}
+
+
+/*All Earrings Adornment Investment Asian Price*/
+#subNavigation{
+	display: flex;
+  	justify-content:flex-start;
+  	flex-direction: row;
+}
+		#subNavigation a{
+			text-decoration: none;
+			color: #000;
+			display: inline-block;
+			padding-right: 1rem;
+		}
+
+
+article{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0.1rem;
+}
+
+
+h3{
+	margin-top: 0;
+	font-weight: 500;
+	margin-bottom: 1rem;
+	font-size: 0.75em;
+}
+p{
+	font-weight: 300;
+	font-size: 0.75em;
+}
+
+/*product list*/
+.detailInfo{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+	figure img{
+		width: 100%;
+		height: auto;
+	}
+	figure a{
+		text-decoration: none;
+		color: #000;
+	}
+
+
+
+.tag1{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+
+#otherService{
+	margin-top: 2rem;
+	padding-top: 2rem;
+}
+
+/*other services*/
+#oservice{
+	padding: 0;
+	max-width: 65ch;
+	margin: 0 auto;
+	
+	display: flex;
+	justify-content: flex-start;
+  	flex-direction: row;
+}
+
+		#osmodule-1{		
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+		#osmodule-1 h3{		
+			font-size: 1em;
+		}
+				#osmodule-1 ul li{
+					list-style: none;
+				}
+						#osmodule-1 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 0.75em;
+						}
+		#osmodule-2{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+			#osmodule-2 h3{		
+				font-size: 1em;
+			}
+				#osmodule-2 ul li{
+					list-style: none;
+				}
+						#osmodule-2 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 0.75em;
+						}
+		#osmodule-3{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+		#osmodule-2 h3{		
+				font-size: 1em;
+			}
+				#osmodule-3 ul li{
+					list-style: none;
+				}
+						#osmodule-3 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 0.75em;
+						}
+
+
+/*footer*/
+footer{
+	background: #00F3FF;
+	padding: 2rem;
+	max-width: 100%;
+	margin: 0 auto;
+	
+	display: flex;
+	justify-content: flex-start;
+  	flex-direction: row;
+}
+		#fmodule-1 ul{			
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+				#fmodule-1 ul li{
+					list-style: none;
+				}
+						#fmodule-1 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 1em;
+						}
+
+		#fmodule-2 ul{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+				#fmodule-2 ul li{
+					list-style: none;
+				}
+						#fmodule-2 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 1em;
+						}
+		#fmodule-3 ul{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+				#fmodule-3 ul li{
+					list-style: none;
+				}
+						#fmodule-3 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 1em;
+						}
+
+@media screen and (max-width: 320px) {
+	body{
+		background-color:#FFDD00;
+	}
+	
+	
+	#bannerContainer{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	
+	main{
+		max-width: 35ch;
+		margin: 0 auto;
+	}
+	article{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 1rem;
+	}
+	#subNavigation{
+		display: flex;
+  		justify-content:flex-start;
+  		flex-direction: column;
+	}
+	#bigImg1{
+		width: 100%;
+		height: auto;
+	}
+	
+	#navIconsContainer{
+		display: flex;
+  		justify-content: space-between;
+		flex-direction: column;
+	}
+
+		#logo{
+			width: 10%;
+			height: auto;
+		}
+		#firstIconsGroup{
+			display: flex;
+  			justify-content: space-around;
+  			flex-direction: column;
+		}
+		#secondIconsGroup{
+			display: flex;
+  			justify-content: space-between;
+  			flex-direction: column;
+		}
+		#mainNavContainer{
+  			display: flex;
+  			justify-content: space-around;
+  			flex-direction: column-reverse;
+		}
+	figure img{
+		width: 100%;
+		height: auto;
+	}
+
+
+.tag1{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		width: 100%
+	}
+}
+
+
+@media screen and (max-width: 620px) and (min-width: 320px) {
+	body{
+		background-color: #00FF43;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	header{
+		padding: 1rem;
+		margin: 0;		
+		max-width: 100%;
+	}
+	
+	
+	#bannerContainer{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	
+	main{
+		max-width: 55ch;
+		margin: 0 auto;
+	}
+
+	#subNavigation{
+		display: flex;
+  		justify-content: flex-start;
+  		flex-direction: column;
+		width: 70%
+	}
+	
+	article{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
+	#navIconsContainer{
+		display: flex;
+  		justify-content: space-between;
+		flex-direction: column;
+	}
+
+		#logo{
+			width: 10%;
+			height: auto;
+		}
+		#firstIconsGroup{
+			display: flex;
+  			justify-content: space-around;
+			flex-direction: column;
+		}
+		#secondIconsGroup{
+			display: flex;
+  			justify-content: space-around;
+			flex-direction: column;
+		}
+	#mainNavContainer{
+  		display: flex;
+  		justify-content: space-around;
+		flex-direction: column-reverse;
+	}
+	figure img{
+		width: 120%;
+		height: auto;
+	}
+
+
+	.tag1{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		width: 120%			
+	}
+	#bigImg1{
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+@media screen and (max-width: 1220px) and (min-width: 620px) {
+	body{
+		background-color: #FF7E00;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	header{
+		padding: 1rem;
+		margin: 0 auto;		
+		max-width: 100%;
+	}
+	
+	
+	#bannerContainer{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	#banner{
+		object-fit: contain;
+	}
+	
+	
+	main{
+		max-width: 55ch;
+		margin: 0 auto;
+	}
+
+	#subNavigation{
+		display: flex;
+  		justify-content: flex-start;
+		flex-direction: row;
+		width: 70%
+	}
+	
+	article{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
+	#navIconsContainer{
+		display: flex;
+  		justify-content: space-between;
+  		flex-direction: row;
+	}
+		#logo{
+			width: 10%;
+			height: auto;
+		}
+		#firstIconsGroup{
+			display: flex;
+  			justify-content: space-around;
+  			flex-direction: row;
+		}
+		#secondIconsGroup{
+			display: flex;
+  			justify-content: space-around;
+  			flex-direction: row;
+		}
+	#mainNavContainer{
+  		display: flex;
+  		justify-content: space-around;
+  		flex-direction: row-reverse;
+	}
+	figure img{
+		width: 120%;
+		height: auto;
+	}
+
+
+	.tag1{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		width: 120%			
+	}
+	#bigImg1{
+		width: 105%;
+		height: auto;
+	}
+}
+
+
+@media screen and (max-width: 3220px) and (min-width: 2420px) {
+	body{
+		background-color: #E699C7;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	header{
+		padding: 1rem;
+		margin: 0;		
+		max-width: 100%;
+	}
+	
+	
+	#bannerContainer{
+		width: 100%;
+		height: auto;
+	
+		border: 0;
+		padding: 0;
+	
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	#banner{
+		object-fit: cover;
+	}
+	
+	
+	main{
+		max-width: 70ch;
+		margin: 0 auto;
+	}
+	#subNavigation{
+		display: flex;
+  		justify-content: flex-start;
+		flex-direction: row;
+		width: 100%
+	}
+	
+	h2{
+		text-align: start;
+	}
+	article{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 0.1rem;
+	}
+	#navIconsContainer{
+		display: flex;
+  		justify-content: space-between;
+  		flex-direction: row;
+	}
+		#logo{
+			width: 10%;
+			height: auto;
+		}
+		#firstIconsGroup{
+			display: flex;
+  			justify-content: space-around;
+  			flex-direction: row;
+		}
+		#secondIconsGroup{
+			display: flex;
+  			justify-content: space-around;
+  			flex-direction: row;
+		}
+	#mainNavContainer{
+  		display: flex;
+  		justify-content: space-around;
+  		flex-direction: row-reverse;
+	}
+	figure img{
+		width: 100%;
+		height: auto;
+	}
+
+	
+	.tag1{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+	}
+	#bigImg1{
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+@media screen and (min-width: 3221px) {
+	body{
+		background-color: #E699C7;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	header{
+		padding: 1rem;
+		margin: 0;		
+		max-width: 100%;
+	}
+	
+	
+	#bannerContainer{
+		width: 100%;
+		height: auto;
+	
+		border: 0;
+		padding: 0;
+	
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	#banner{
+		object-fit: cover;
+	}
+	
+	
+	main{
+		max-width: 70ch;
+		margin: 0 auto;
+	}
+	#subNavigation{
+		display: flex;
+  		justify-content: flex-start;
+		flex-direction: row;
+		width: 100%
+	}
+	
+	h2{
+		text-align: start;
+	}
+	article{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 0.1rem;
+	}
+	#navIconsContainer{
+		display: flex;
+  		justify-content: space-between;
+  		flex-direction: row;
+	}
+		#logo{
+			width: 10%;
+			height: auto;
+		}
+		#firstIconsGroup{
+			display: flex;
+  			justify-content: space-around;
+  			flex-direction: row;
+		}
+		#secondIconsGroup{
+			display: flex;
+  			justify-content: space-around;
+  			flex-direction: row;
+		}
+	#mainNavContainer{
+  		display: flex;
+  		justify-content: space-around;
+  		flex-direction: row-reverse;
+	}
+	figure img{
+		width: 100%;
+		height: auto;
+	}
+
+
+	.tag1{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+	}
+	#bigImg1{
+		width: 100%;
+		height: auto;
+	}
+}

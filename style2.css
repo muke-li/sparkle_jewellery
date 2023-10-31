@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Quicksand', 'Arial', sans-serif;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+
+header{
+	background: #00F3FF;
+	font-weight: 600;
+	padding: 1rem;
+	margin: 0;	
+}
+
+	#navIconsContainer{
+		display: flex;
+  		justify-content: space-between;
+  		flex-direction: row;
+	}
+
+	#logo{
+		width: 10%;
+		height: auto;
+	}
+
+productText
+
+		#firstIconsGroup{
+			display: flex;
+			justify-content: space-around;
+			flex-direction: row;
+		}
+				#firstIconsGroup a{
+					display: inline-block;
+					padding: 1rem;
+				}
+		#secondIconsGroup{
+			display: flex;
+			justify-content: space-around;
+			flex-direction: row;
+		}
+				#secondIconsGroup a{
+					display: inline-block;
+					padding: 1rem;
+				}
+
+/*magnifying-glass, phone AND cart, user*/
+
+/*header*/
+	#mainNavContainer{
+  		display: flex;
+  		justify-content: space-around;
+  		flex-direction: row-reverse;
+	}
+			#mainNavContainer a{
+				display: inline-block;
+				padding-right: 1rem;
+			}
+
+
+nav a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+main{
+	line-height: 2rem;
+	font-size: 1.4rem;
+	
+	max-width: 65ch;
+	margin: 0 auto;
+}
+h1{
+	margin: 3rem;
+	margin-bottom: 4rem;
+	padding-bottom: 0;
+	font-size: 1.25em;
+	text-align:left;
+}
+
+
+#bigImg1{
+	width: 120%;
+	height: auto;
+}
+
+h2{
+	padding-top: 0rem;
+	font-size: 1.5rem;
+	text-align:left;
+}
+
+
+#subNavigation{
+	display: flex;
+  	justify-content:flex-start;
+  	flex-direction: row;
+}
+#subNavigation a{
+	text-decoration: none;
+	color: #000;
+}
+
+article{
+	max-width: 65ch;
+	margin: 0 auto;
+}
+
+article div{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	grid-gap: 1rem;
+	border: 1px solid black;
+}
+	.productText{
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+/*Add to cart*/
+	.productText a{
+		text-decoration: none;
+		border: 1px solid white;
+		padding: 0.5rem;
+		background: #7acfd3;
+		color: white;
+	}
+
+	#detailImage{
+		padding: 0;
+		border: 0;
+		width: 100%;
+		height: auto;
+	}
+
+
+h3{
+	margin-top: 0;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+p{
+	font-weight: 300;
+}
+figure img{
+	width: 50%;
+	height: auto;
+}
+
+figure a{
+	text-decoration: none;
+	color: #000;
+}
+
+
+.tag1{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	width: 200% /* IMPORTANT */
+}
+
+
+
+#otherService{
+	margin-top: 2rem;
+	padding-top: 2rem;
+}
+
+/*other services*/
+#oservice{
+	padding: 0;
+	max-width: 65ch;
+	margin: 0 auto;
+	
+	display: flex;
+	justify-content: flex-start;
+  	flex-direction: row;
+}
+
+		#osmodule-1{		
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+		#osmodule-1 h3{		
+			font-size: 1em;
+		}
+				#osmodule-1 ul li{
+					list-style: none;
+				}
+						#osmodule-1 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 0.75em;
+						}
+		#osmodule-2{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+		#osmodule-2 h3{		
+			font-size: 1em;
+		}
+				#osmodule-2 ul li{
+					list-style: none;
+				}
+						#osmodule-2 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 0.75em;
+						}
+		#osmodule-3{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+		#osmodule-3 h3{		
+			font-size: 1em;
+		}
+				#osmodule-3 ul li{
+					list-style: none;
+				}
+						#osmodule-3 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 0.75em;
+						}
+
+
+/*footer*/
+footer{
+	background: #00F3FF;
+	padding: 2rem;
+	max-width: 100%;
+	margin: 0 auto;
+	
+	display: flex;
+	justify-content: flex-start;
+  	flex-direction: row;
+}
+		#fmodule-1 ul{			
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+				#fmodule-1 ul li{
+					list-style: none;
+				}
+						#fmodule-1 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 1em;
+						}
+
+		#fmodule-2 ul{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+				#fmodule-2 ul li{
+					list-style: none;
+				}
+						#fmodule-2 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 1em;
+						}
+		#fmodule-3 ul{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+				#fmodule-3 ul li{
+					list-style: none;
+				}
+						#fmodule-3 ul li a{
+							text-decoration: none;
+							color: black;
+							font-size: 1em;
+						}
